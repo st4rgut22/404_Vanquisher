@@ -1,0 +1,31 @@
+{
+  "name": "404 Vanquisher",
+  "version": "1.0",
+  "description": "Fix 404 Errors",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "declarativeContent",
+    "https://*/",
+    "http://*/"
+	],
+  "background": {
+	  "scripts": ["background.js"]
+	},
+  "browser_action": {
+    "default_popup":"popup.html",
+    "default_icon": {
+      "16": "images/404.png",
+      "32": "images/404.png",
+      "48": "images/404.png",
+      "128": "images/404.png"
+    }
+  },
+  "icons": {
+    "16": "images/404.png",
+    "32": "images/404.png",
+    "48": "images/404.png",
+    "128": "images/404.png"
+  },
+  "manifest_version": 2
+}
